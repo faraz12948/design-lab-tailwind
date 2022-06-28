@@ -1,0 +1,9 @@
+.controller-side-bar {
+    background-color: rgb(110, 108, 108);
+}
+
+@media (min-width: 689px) {
+    .main-container {
+        padding: 50px 80px 0px 80px;
+    }
+}
