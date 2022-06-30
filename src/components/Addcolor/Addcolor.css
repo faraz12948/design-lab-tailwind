@@ -1,1 +1,13 @@
-.container {}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px 0px 0px;
+}
+
+@media (max-width: 688px) {
+    .cross-btn {
+        display: none;
+    }
+}

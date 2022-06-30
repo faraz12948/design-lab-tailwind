@@ -1,9 +1,17 @@
 .controller-side-bar {
-    background-color: rgb(110, 108, 108);
+    background-color: #444343;
+    /* background-color: rgb(110, 108, 108); */
+    color: azure;
 }
+
+/* .icon-btn :hover {
+    background-color: azure;
+    color: #444343;
+
+} */
 
 @media (min-width: 689px) {
     .main-container {
-        padding: 50px 80px 0px 80px;
+        padding: 0px 100px 0px 30px;
     }
 }

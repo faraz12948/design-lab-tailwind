@@ -6,29 +6,28 @@ body {
 
 form {
     max-width: 420px;
-    margin: 50px auto;
+    margin: 5px auto;
 }
 
 .feedback-input {
     color: white;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
-    border: 2px solid grey;
-    transition: all 0.3s;
+    border: 0.5px solid grey;
     padding: 13px;
     margin-bottom: 15px;
     width: 100%;
     box-sizing: border-box;
     outline: 0;
-    color: black;
+    color: rgb(156, 153, 153);
 }
 
 .feedback-input:focus {
-    border: 2px solid black;
+    border: 1px solid rgb(89, 89, 89);
 }
 
 textarea {
@@ -39,20 +38,32 @@ textarea {
 
 [type="submit"] {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    width: 100%;
+    width: 50%;
     background: #1f51cf;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 0;
     cursor: pointer;
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
     transition: all 0.3s;
     margin-top: -4px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 [type="submit"]:hover {
     background: #1e56e3;
+}
+
+
+.upload:hover {
+    background-color: #4697de;
+    color: white;
+}
+
+@media (max-width: 688px) {
+    .cross-btn {
+        display: none;
+    }
 }

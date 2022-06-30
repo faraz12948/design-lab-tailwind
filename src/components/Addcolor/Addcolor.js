@@ -2,6 +2,9 @@ import React from 'react';
 import { CompactPicker } from 'react-color';
 import './Addcolor.css';
 import { SwatchesPicker } from 'react-color';
+import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
+import { NavLink } from 'react-router-dom';
+
 // class Addcolor extends React.Component {
 //     state = {
 //         background: '#fff',
@@ -30,11 +33,23 @@ import { SwatchesPicker } from 'react-color';
 //     }
 // }
 const Addcolor = (props) => {
-    console.log(props)
+    // console.log(props)
     const handleChange = (color, event) => {
-        console.log(color);
+        // console.log(color);
 
     }
-    return (<SwatchesPicker onChange={handleChange} />);
+    return (
+        <>
+            <NavLink className="cross-btn" to='/'>
+
+                <ArrowBackIosNewRoundedIcon></ArrowBackIosNewRoundedIcon>
+            </NavLink>
+            <div className='container'>
+
+                <p className='pb-5' style={{ textAlign: 'center', color: 'grey' }}>Change product color</p>
+                <SwatchesPicker onChange={handleChange} />
+            </div></>
+
+    );
 }
 export default Addcolor;
