@@ -30,19 +30,19 @@ const AddAll = () => {
               <p className='pb-5' style={{ fontSize: '10px', textAlign: 'center', color: 'grey' }}>Add text</p>
             </div>
           </NavLink>
-          <NavLink to='/addtxt'>
+          <NavLink to='/addimg'>
             <div className='icons'>
               <img src={image} alt=""></img>
               <p className='pb-5' style={{ fontSize: '10px', textAlign: 'center', color: 'grey' }}>Add text</p>
             </div>
           </NavLink>
-          <NavLink to='/addtxt'>
+          <NavLink to='/Upload'>
             <div className='icons'>
               <img src={upload} alt=""></img>
               <p className='pb-5' style={{ fontSize: '10px', textAlign: 'center', color: 'grey' }}>Add text</p>
             </div>
           </NavLink>
-          <NavLink to='/addtxt'>
+          <NavLink to='/addcolor'>
             <div className='icons'>
               <img src={color} alt=""></img>
               <p className='pb-5' style={{ fontSize: '10px', textAlign: 'center', color: 'grey' }}>Add text</p>
